@@ -9,7 +9,7 @@ import { Router } from '@angular/router'
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-  registerUserData:any;
+  registerUserData = {}
   constructor(private _auth: AuthService,
     private _router: Router) { }
 
